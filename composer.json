@@ -1,0 +1,24 @@
+{
+    "name": "alexkhovich/yii2-mytest",
+    "description": "Описание тестового расширения",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","mytest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliaksandr Liakhovich",
+            "email": "alexkhovich@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "alexkhovich\\mytest\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexkhovich\\mytest\\": "src"
+        }
+    }
+}
